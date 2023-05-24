@@ -27,8 +27,8 @@ export default function Header() {
                         {mobile ? <AiOutlineMenu className='close' /> : <AiOutlineClose className='open' />}
                     </button>
                 </div>
-                <div>
-                    <h1>VALUE.ONDEMAND</h1>
+                <div style={{display:'flex', marginLeft: '8px'}}>
+                    <h1>VALUE.</h1><h1 style={{ color: 'rgba(179, 0, 0, 1)'}}>ON</h1><h1>DEMAND</h1>
                 </div>
                 <div>
                     <ul>{navlist.map(nav => 
@@ -38,7 +38,7 @@ export default function Header() {
                     )}</ul>
                 </div>
             </nav>
-            <div className='search' >
+            <div className='search-header' >
                 <div style={{display: 'flex', alignItems: 'center'}}>
                     <input type='text' placeholder='Search Produts...' />
                     <BiSearch className='search-icon' />
