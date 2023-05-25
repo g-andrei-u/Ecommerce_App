@@ -31,8 +31,15 @@ ul {
     margin-left: 10px;
 }
 
-ul li {
+.header a {
+    color: black;
+    text-decoration: none;
     margin: 0 20px;
+}
+
+.header a:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .search-header {
