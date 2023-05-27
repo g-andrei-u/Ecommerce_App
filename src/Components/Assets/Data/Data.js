@@ -6,6 +6,9 @@ import W11 from '../Images/microsoft-windows-11.jpg';
 import Asus from '../Images/asus-zenbook-duo.jpg';
 import Dell from '../Images/Dell-Alienware-Aurora-R11-Gaming.jpg';
 import Logi from '../Images/Logitech-G733-Lightspeed-Wireless.jpg';
+import BannerLaptops from '../Images/banner-laptops.jpg';
+import BannerHeadset from '../Images/banner-headphones.png';
+
 
 export const navlist = [
     {
@@ -99,4 +102,22 @@ export const products = [
       category: "Headset",
       qty: 0,
     }
+]
+
+export const banner = [
+    {
+      id: 1,
+      title1: "The New Generation of Laptops",
+      title2: "Dell, Apple, Lenovo, Acer, Asus etc",
+      desc: "Sales 25% Off For Members",
+      cover: BannerLaptops,
+    },
+    
+    {
+      id: 2,
+      title1: "HeadPhones for The End of The World",
+      title2: "50+ models",
+      desc: "Sale 40% Off For Members",
+      cover: BannerHeadset,
+    },
   ]
