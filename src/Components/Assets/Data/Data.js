@@ -8,116 +8,302 @@ import Dell from '../Images/Dell-Alienware-Aurora-R11-Gaming.jpg';
 import Logi from '../Images/Logitech-G733-Lightspeed-Wireless.jpg';
 import BannerLaptops from '../Images/banner-laptops.jpg';
 import BannerHeadset from '../Images/banner-headphones.png';
+import phones from '../Images/phones.jpg';
+import IPhone from '../Images/iphone-12-pro.jpg';
+import Galaxi from '../Images/Galaxy-S20.jpg';
+import Pixel from '../Images/Google-Pixel-4-XL.jpg';
+import { FcCheckmark } from 'react-icons/fc';
+import { AiOutlineClose } from 'react-icons/ai';
 
 
 export const navlist = [
-    {
-        text: 'home',
-        path: '/'
-    },
+  {
+    text: 'home',
+    path: '/'
+  },
 
-    {
-        text: 'shop',
-        path: '/shop',
-    },
+  {
+    text: 'shop',
+    path: '/shop',
+  },
 
-    {
-        text: 'about us',
-        path: '/about',
-    },
+  {
+    text: 'about us',
+    path: '/about',
+  },
 
-    {
-        text: 'contact us',
-        path: '/contact',
-    }
+  {
+    text: 'contact us',
+    path: '/contact',
+  }
 ];
 
 export const hero = [
-    {
-        id: 1,
-        cover: computers,
-        name: 'Computers',
-        items: '5'
-    },
+  {
+    id: 1,
+    cover: computers,
+    name: 'Computers',
+    items: '5'
+  },
 
-    {
-        id: 2,
-        cover: laptops,
-        name: 'Laptops',
-        items: '7'
-    },
+  {
+    id: 2,
+    cover: laptops,
+    name: 'Laptops',
+    items: '7'
+  },
 
-    {
-        id: 3,
-        cover: OP,
-        name: 'operating systems',
-        items: '3'
-    },
+  {
+    id: 3,
+    cover: OP,
+    name: 'operating systems',
+    items: '3'
+  },
 
-    {
-        id: 4,
-        cover: headset,
-        name: 'Headset',
-        items: '2'
-    }
-]
+  {
+    id: 4,
+    cover: headset,
+    name: 'Headset',
+    items: '2'
+  },
+
+  {
+    id: 5,
+    cover: phones,
+    name: 'Phones',
+    items: '12'
+  }
+];
 
 export const products = [
-    {
-      id: 1,
-      cover: W11,
-      title: "Windows 11 Pro",
-      author: "Microsoft",
-      price: '€30.5',
-      category: "operating systems",
-      qty: 0,
-    },
+  {
+    id: 1,
+    cover: W11,
+    title: "Windows 11 Pro",
+    author: "Microsoft",
+    price: '€30.5',
+    category: "operating systems",
+    qty: 0,
+  },
 
-    {
-      id: 2,
-      cover: Asus,
-      title: "Asus Zenbook Duo",
-      author: "Asus",
-      price: '€1500.0',
-      category: "Laptops",
-      qty: 0,
-    },
+  {
+    id: 2,
+    cover: Asus,
+    title: "Asus Zenbook Duo",
+    author: "Asus",
+    price: '€1500.0',
+    category: "Laptops",
+    qty: 0,
+  },
 
-    {
-      id: 3,
-      cover: Dell,
-      title: "Dell Alienware Aurora R11 Gaming",
-      author: "Dell",
-      price: '€1123.0',
-      category: "Computers",
-      qty: 0,
-    },
+  {
+    id: 3,
+    cover: Dell,
+    title: "Dell Alienware Aurora R11 Gaming",
+    author: "Dell",
+    price: '€1123.0',
+    category: "Computers",
+    qty: 0,
+  },
 
-    {
-      id: 4,
-      cover: Logi,
-      title: "Logitech G733 Lightspeed Wireless",
-      author: "Logitech",
-      price: '€99.9',
-      category: "Headset",
-      qty: 0,
-    }
+  {
+    id: 4,
+    cover: Logi,
+    title: "Logitech G733 Lightspeed Wireless",
+    author: "Logitech",
+    price: '€99.9',
+    category: "Headset",
+    qty: 0,
+  }
 ]
 
 export const banner = [
-    {
-      id: 1,
-      title1: "The New Generation of Laptops",
-      title2: "Dell, Apple, Lenovo, Acer, Asus etc",
-      desc: "Sales 25% Off For Members",
-      cover: BannerLaptops,
-    },
+  {
+    id: 1,
+    title1: "The New Generation of Laptops",
+    title2: "Dell, Apple, Lenovo, Acer, Asus etc",
+    desc: "Sales 25% Off For Members",
+    cover: BannerLaptops,
+  },
     
-    {
-      id: 2,
-      title1: "HeadPhones for The End of The World",
-      title2: "50+ models",
-      desc: "Sale 40% Off For Members",
-      cover: BannerHeadset,
-    },
-  ]
+  {
+    id: 2,
+    title1: "HeadPhones for The End of The World",
+    title2: "50+ models",
+    desc: "Sale 40% Off For Members",
+    cover: BannerHeadset,
+  },
+]
+
+
+
+export const topProducts = [
+  {
+    id: 10,
+    cover: IPhone,
+    title: "iPhone 12",
+    author: "Apple",
+    price: "350.00",
+    category: "Phones",
+    qty: 1,
+  },
+
+  {
+    id: 11,
+    cover: IPhone,
+    title: "iPhone 12 Pro",
+    author: "Apple",
+    price: "435.33",
+    category: "Phones",
+    qty: 0,
+  },
+
+  {
+    id: 12,
+    cover: Pixel,
+    title: "Google Pixel 4 XL",
+    author: "Google",
+    price: "199.99",
+    category: "Phones",
+    qty: 1,
+  },
+
+  {
+    id: 13,
+    cover: Pixel,
+    title: "Google Pixel 4",
+    author: "Google",
+    price: "165.00",
+    category: "Phones",
+    qty: 2,
+  },
+
+  {
+    id: 14,
+    cover: Galaxi,
+    title: "Galaxy S20",
+    author: "Samsung",
+    price: "369.55",
+    category: "Phones",
+    qty: 2,
+  },
+
+  {
+    id: 15,
+    cover: Galaxi,
+    title: "Galaxy S20",
+    author: "Samsung",
+    price: "269.55",
+    category: "Phones",
+    qty: 0,
+  },
+
+  {
+    id: 16,
+    cover: IPhone,
+    title: "Galaxy S20",
+    author: "by Blueskytechco in Mockups",
+    price: "30.00",
+    category: "Phones",
+    qty: 0,
+  },
+
+  {
+    id: 17,
+    cover: Galaxi,
+    title: "Galaxy S20+",
+    author: "Samsung",
+    price: "310.00",
+    category: "Phones",
+    qty: 1,
+  }
+]
+
+export const price = [
+  {
+    id: 1,
+    name: "Free Trial",
+    price: "0",
+    desc: "Beautifully simple prices, 14 days of free trial.",
+    list: [
+      {
+        para: "OS Updates",
+        icon: <FcCheckmark />,
+      },
+      {
+        para: "Support And Updates",
+        icon: <AiOutlineClose />,
+      },
+      {
+        para: "Access All Discounts",
+        icon: <AiOutlineClose />,
+      },
+      {
+        para: "All Product Themes For Life",
+        icon: <AiOutlineClose />,
+      },
+      {
+        para: "30 Days Money Back",
+        icon: <AiOutlineClose />,
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    name: "Premium",
+    price: "26",
+    desc: "Declutter your mind and save time with Premium.",
+    list: [
+      {
+        para: "OS Updates",
+        icon: <FcCheckmark />,
+      },
+      {
+        para: "Support And Updates",
+        icon: <FcCheckmark />,
+      },
+      {
+        para: "Access All Discounts",
+        icon: <FcCheckmark />,
+      },
+      {
+        para: "All Product Themes For Life",
+        icon: <AiOutlineClose />,
+      },
+      {
+        para: "30 Days Money Back",
+        icon: <AiOutlineClose />,
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    name: "Unlimited Access ",
+    price: "49",
+    desc: "Declutter your mind and save time with Premium.",
+    list: [
+      {
+        para: "OS Updates",
+        icon: <FcCheckmark />,
+      },
+      {
+        para: "Support And Updates",
+        icon: <FcCheckmark />,
+      },
+      {
+        para: "Access All Discounts",
+        icon: <FcCheckmark />,
+      },
+      {
+        para: "All Product Themes For Life",
+        icon: <FcCheckmark />,
+      },
+      {
+        para: "30 Days Money Back",
+        icon: <FcCheckmark />,
+      },
+    ],
+  },
+]

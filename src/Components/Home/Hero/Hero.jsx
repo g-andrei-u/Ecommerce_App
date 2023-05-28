@@ -24,9 +24,9 @@ export default function Hero() {
         <section className="hero">
             <div className="inner-hero" >
                 <h1>
-                    <label>Over <span style={{ color: 'rgba(179, 0, 0, 1)' }}>500</span> Products</label>
+                    <label style={{ color: 'rgba(179, 0, 0, 1)' }}>Over </label><span>500</span><label style={{color: 'rgb(255, 157, 0)'}}> Products</label>
                     <br/>
-                    <label style={{ color: 'rgba(179, 0, 0, 1)' }}>PCs</label><label>, Laptops, and more</label>
+                    <label>PCs, </label><label style={{ color: 'rgba(179, 0, 0, 1)' }}>Laptops</label>, and <label style={{color: 'rgb(255, 157, 0)'}}>more</label>
                 </h1>
                 <p style={{ color: 'rgba(0, 0, 0, 0.5)', fontWeight: '600', marginBottom: '50px'}}>The best quality in technology</p>
                 <div className="search-bar">

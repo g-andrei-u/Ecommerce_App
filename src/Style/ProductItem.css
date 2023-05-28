@@ -4,6 +4,10 @@
     flex-wrap: wrap;
 }
 
+.product {
+    margin: 10px 0;
+}
+
 .product-box {
     box-sizing: border-box;
     display: flex;
@@ -11,8 +15,7 @@
     justify-content: center;
     width: 320px;
     height: 320px;
-    margin: 10px;
-
+    margin: 10px 0;
 }
 
 .product img {

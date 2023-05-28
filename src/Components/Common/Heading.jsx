@@ -7,7 +7,7 @@ export default function Heading({ title, description}) {
     <>
         <div className="heading">
             <h2>{title}</h2>
-            <p>{description}</p>
+            <p style={{ color: 'rgba(179, 0, 0, 1)'}}>{description}</p>
         </div>
     </>
     )

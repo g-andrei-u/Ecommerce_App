@@ -28,12 +28,12 @@ export default function Header() {
                     </button>
                 </div>
                 <div style={{display:'flex', marginLeft: '8px'}}>
-                    <h1>VALUE.</h1><h1 style={{ color: 'rgba(179, 0, 0, 1)'}}>ON</h1><h1>DEMAND</h1>
+                    <h1 style={{ color: 'rgba(179, 0, 0, 1)'}}>VALUE.</h1><h1>ON</h1><h1 style={{ color: 'rgb(255, 157, 0)'}}>DEMAND</h1>
                 </div>
                 <div>
                     <ul>{navlist.map(nav => 
                         <li key={nav.id}>
-                            <Link to={nav.path}>{nav.text}</Link>
+                            <Link to={nav.path}>{nav.text.toUpperCase()}</Link>
                         </li>
                     )}</ul>
                 </div>
