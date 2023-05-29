@@ -307,3 +307,24 @@ export const price = [
     ],
   },
 ]
+
+export const customer = [
+  {
+    id: 1,
+    desc: "Congue condimentum et non eu arcu sociis aenean vivamus quisque. Porta purus urna. Massa id blandit enim cursus ante, nec consectetuer imperdiet ipsum",
+    name: "John",
+    post: "Developer",
+  },
+  {
+    id: 2,
+    desc: "Congue condimentum et non eu arcu sociis aenean vivamus quisque. Porta purus urna. Massa id blandit enim cursus ante, nec consectetuer imperdiet ipsum",
+    name: "Steve",
+    post: "Marketing Company Director",
+  },
+  {
+    id: 3,
+    desc: "Congue condimentum et non eu arcu sociis aenean vivamus quisque. Porta purus urna. Massa id blandit enim cursus ante, nec consectetuer imperdiet ipsum",
+    name: "Alex",
+    post: "Tech Company Director",
+  },
+]
