@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import '../../../Style/ProductItem.css';
 import { FiSearch, FiShoppingBag } from 'react-icons/fi';
 import { AiOutlineClose, AiOutlineHeart } from 'react-icons/ai';
+import { useDispatch } from "react-redux";
+import { ADD } from "../../../Controller/reducer";
 
 export default function ProductItem({ data }) {
 
@@ -13,6 +15,13 @@ export default function ProductItem({ data }) {
     const onEnter = (id) => { if(hoverId !== id) {setHoverId(id)}};
     const onLeave = () => {setHoverId(null)};
     const onOpenImage = (src) => { setImg(src); setOpenImage(true) };
+
+    const dispatch = useDispatch();
+
+    const addToCart = (e) => {
+
+        dispatch( ADD(e) )
+    }
 
 
     return (
@@ -29,7 +38,7 @@ export default function ProductItem({ data }) {
                         <img src={items.cover} />
                         <div style={{display: hoverId === items.id ? 'block' : 'none'}} className='overlay bag'>
                             <button>
-                                <FiShoppingBag />
+                                <FiShoppingBag onClick={() => addToCart(items)} />
                             </button>
                         </div>
                         <div style={{display: hoverId === items.id ? 'block' : 'none'}} className='overlay heart'>

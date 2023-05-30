@@ -1,12 +1,16 @@
 import React from 'react';
 import Pages from '../Components/Home/Pages/Pages';
 import './App.css';
+import { Provider } from 'react-redux';
+import store from '../Controller/store';
 
 function App() {
   return (
-    <div>
+  <>
+    <Provider store={store}>
       <Pages />
-    </div>
+    </Provider>
+  </>
   );
 }
 
