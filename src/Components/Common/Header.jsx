@@ -75,7 +75,7 @@ export default function Header() {
                             </Link>
                             <div>
                                 <p>{e.title.slice(0, 20)}...</p>
-                                <p>Price: €{e.price}</p>
+                                <p>Price: {e.price}</p>
                                 <p>Quantity: {e.qty}</p>
                             </div>
                         </div>
