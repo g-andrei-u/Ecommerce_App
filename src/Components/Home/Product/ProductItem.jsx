@@ -55,7 +55,7 @@ export default function ProductItem({ data }) {
                     <div>
                         <h3>{items.title}</h3>
                         <p>{items.author}</p>
-                        <h4>Price: {items.price}</h4>
+                        <h4>Price: €{items.price}</h4>
                     </div>
                 </div>
             ))}

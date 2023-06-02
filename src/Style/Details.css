@@ -1,0 +1,50 @@
+article {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    margin: 0 20px;
+}
+
+.item-desc {
+    display: flex;
+}
+
+.item-desc img {
+    width: 750px;
+}
+
+.just-desc {
+    margin: 0 30px;
+}
+
+.just-desc h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.just-desc h3, .item-desc p {
+    margin: 3px 0;
+}
+
+.increment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 180px;
+    padding: 0 5px;
+    margin: 25px 0;
+}
+
+.increment button {
+    cursor: pointer;
+    width: 40px;
+    background-color: white;
+    color: rgb(255, 157, 0);
+    font-size: 25px;
+}
+
+.add {
+    cursor: pointer;
+    width: 190px;
+    border-radius: 0px;
+}

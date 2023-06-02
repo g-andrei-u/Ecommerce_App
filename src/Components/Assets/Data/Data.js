@@ -81,7 +81,7 @@ export const products = [
     cover: W11,
     title: "Windows 11 Pro",
     author: "Microsoft",
-    price: '€30.5',
+    price: 30.5,
     category: "operating systems",
     qty: 0,
   },
@@ -91,7 +91,7 @@ export const products = [
     cover: Asus,
     title: "Asus Zenbook Duo",
     author: "Asus",
-    price: '€1500.0',
+    price: 1500.0,
     category: "Laptops",
     qty: 0,
   },
@@ -101,7 +101,7 @@ export const products = [
     cover: Dell,
     title: "Dell Alienware Aurora R11 Gaming",
     author: "Dell",
-    price: '€1123.0',
+    price: 1123.0,
     category: "Computers",
     qty: 0,
   },
@@ -111,7 +111,7 @@ export const products = [
     cover: Logi,
     title: "Logitech G733 Lightspeed Wireless",
     author: "Logitech",
-    price: '€99.9',
+    price: 99.9,
     category: "Headset",
     qty: 0,
   }
@@ -143,9 +143,9 @@ export const topProducts = [
     cover: IPhone,
     title: "iPhone 12",
     author: "Apple",
-    price: "350.00",
+    price: 350.00,
     category: "Phones",
-    qty: 1,
+    qty: 0,
   },
 
   {
@@ -153,7 +153,7 @@ export const topProducts = [
     cover: IPhone,
     title: "iPhone 12 Pro",
     author: "Apple",
-    price: "435.33",
+    price: 435.33,
     category: "Phones",
     qty: 0,
   },
@@ -163,9 +163,9 @@ export const topProducts = [
     cover: Pixel,
     title: "Google Pixel 4 XL",
     author: "Google",
-    price: "199.99",
+    price: 199.99,
     category: "Phones",
-    qty: 1,
+    qty: 0,
   },
 
   {
@@ -173,9 +173,9 @@ export const topProducts = [
     cover: Pixel,
     title: "Google Pixel 4",
     author: "Google",
-    price: "165.00",
+    price: 165.00,
     category: "Phones",
-    qty: 2,
+    qty: 0,
   },
 
   {
@@ -183,9 +183,9 @@ export const topProducts = [
     cover: Galaxi,
     title: "Galaxy S20",
     author: "Samsung",
-    price: "369.55",
+    price: 369.55,
     category: "Phones",
-    qty: 2,
+    qty: 0,
   },
 
   {
@@ -193,7 +193,7 @@ export const topProducts = [
     cover: Galaxi,
     title: "Galaxy S20",
     author: "Samsung",
-    price: "269.55",
+    price: 269.55,
     category: "Phones",
     qty: 0,
   },
@@ -203,7 +203,7 @@ export const topProducts = [
     cover: IPhone,
     title: "Galaxy S20",
     author: "by Blueskytechco in Mockups",
-    price: "30.00",
+    price: 30.00,
     category: "Phones",
     qty: 0,
   },
@@ -213,9 +213,9 @@ export const topProducts = [
     cover: Galaxi,
     title: "Galaxy S20+",
     author: "Samsung",
-    price: "310.00",
+    price: 310.00,
     category: "Phones",
-    qty: 1,
+    qty: 0,
   }
 ]
 
