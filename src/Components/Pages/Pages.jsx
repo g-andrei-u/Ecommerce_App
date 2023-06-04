@@ -5,6 +5,7 @@ import Header from '../Common/Header';
 import Home from '../Home/Home';
 import Details from '../Home/Details/Details';
 import About from '../About/About';
+import Contact from '../Contact/Contact';
 
 
 export default function Pages() {
@@ -15,6 +16,7 @@ export default function Pages() {
             <Routes>
                 <Route exact path='/' element={<Home />} />
                 <Route exact path='/about' element={<About />} />
+                <Route exact path='/contact' element={<Contact />} />
                 <Route exact path='/cart/:id' element={<Details />} />
             </Routes>
             <Footer />
