@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BiSearch } from 'react-icons/bi';
 import '../../../Style/Hero.css';
 import SearchItems from "./SearchItems";
-import { products } from "../../Assets/Data/Data";
+import { allProducts } from "../../Assets/Data/Data";
 
 
 export default function Hero() {
@@ -34,7 +34,7 @@ export default function Hero() {
                     <input type="text" placeholder="Search Products..." onChange={onChange} value={value} />
                     <button onClick={() => onSearch(value)} ><BiSearch /></button>
                 </div>
-                <SearchItems product={products} value={value} onSearch={onSearch} />
+                <SearchItems product={allProducts} value={value} onSearch={onSearch} />
             </div>
         </section>
     </>

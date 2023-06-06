@@ -12,6 +12,8 @@ import phones from '../Images/phones.jpg';
 import IPhone from '../Images/iphone-12-pro.jpg';
 import Galaxi from '../Images/Galaxy-S20.jpg';
 import Pixel from '../Images/Google-Pixel-4-XL.jpg';
+import W10 from '../Images/windows-10.png';
+import MacBook from '../Images/MacBook_Pro_16.jpg';
 import { FcCheckmark } from 'react-icons/fc';
 import { AiOutlineClose } from 'react-icons/ai';
 
@@ -37,6 +39,8 @@ export const navlist = [
     path: '/contact',
   }
 ];
+
+
 
 export const hero = [
   {
@@ -74,6 +78,8 @@ export const hero = [
     items: '12'
   }
 ];
+
+
 
 export const products = [
   {
@@ -116,6 +122,8 @@ export const products = [
     qty: 0,
   }
 ]
+
+
 
 export const banner = [
   {
@@ -219,6 +227,8 @@ export const topProducts = [
   }
 ]
 
+
+
 export const price = [
   {
     id: 1,
@@ -308,6 +318,8 @@ export const price = [
   },
 ]
 
+
+
 export const customer = [
   {
     id: 1,
@@ -327,4 +339,178 @@ export const customer = [
     name: "Alex",
     post: "Tech Company Director",
   },
+]
+
+
+
+export const allProducts = [
+  {
+    id: 1,
+    cover: W11,
+    title: "Windows 11 Pro",
+    author: "Microsoft",
+    price: 30.5,
+    category: "operating systems",
+    qty: 0,
+  },
+
+  {
+    id: 2,
+    cover: Asus,
+    title: "Asus Zenbook Duo",
+    author: "Asus",
+    price: 1500.0,
+    category: "Laptops",
+    qty: 0,
+  },
+
+  {
+    id: 3,
+    cover: Dell,
+    title: "Dell Alienware Aurora R11 Gaming",
+    author: "Dell",
+    price: 1123.0,
+    category: "Computers",
+    qty: 0,
+  },
+
+  {
+    id: 4,
+    cover: Logi,
+    title: "Logitech G733 Lightspeed Wireless",
+    author: "Logitech",
+    price: 99.9,
+    category: "Headset",
+    qty: 0,
+  },
+
+  {
+    id: 5,
+    cover: W11,
+    title: "Windows 11 Pro",
+    author: "Microsoft",
+    price: 30.5,
+    category: "operating systems",
+    qty: 0,
+  },
+
+  {
+    id: 6,
+    cover: W10,
+    title: "Windows 10 Pro",
+    author: "Microsoft",
+    price: 25.0,
+    category: "operating systems",
+    qty: 0,
+  },
+
+  {
+    id: 7,
+    cover: Dell,
+    title: "Dell Alienware Aurora R11 Gaming",
+    author: "Dell",
+    price: 1123.0,
+    category: "Computers",
+    qty: 0,
+  },
+
+  {
+    id: 8,
+    cover: MacBook,
+    title: "MacBook Pro 16",
+    author: "Apple",
+    price: 1299.9,
+    category: "Laptops",
+    qty: 0,
+  },
+
+  {
+    id: 9,
+    cover: Logi,
+    title: "Logitech G733 Lightspeed Wireless",
+    author: "Logitech",
+    price: 99.9,
+    category: "Headset",
+    qty: 0,
+  },
+
+  {
+    id: 10,
+    cover: IPhone,
+    title: "iPhone 12",
+    author: "Apple",
+    price: 350.00,
+    category: "Phones",
+    qty: 0,
+  },
+
+  {
+    id: 11,
+    cover: IPhone,
+    title: "iPhone 12 Pro",
+    author: "Apple",
+    price: 435.33,
+    category: "Phones",
+    qty: 0,
+  },
+
+  {
+    id: 12,
+    cover: Pixel,
+    title: "Google Pixel 4 XL",
+    author: "Google",
+    price: 199.99,
+    category: "Phones",
+    qty: 0,
+  },
+
+  {
+    id: 13,
+    cover: Pixel,
+    title: "Google Pixel 4",
+    author: "Google",
+    price: 165.00,
+    category: "Phones",
+    qty: 0,
+  },
+
+  {
+    id: 14,
+    cover: Galaxi,
+    title: "Galaxy S20",
+    author: "Samsung",
+    price: 369.55,
+    category: "Phones",
+    qty: 0,
+  },
+
+  {
+    id: 15,
+    cover: Galaxi,
+    title: "Galaxy S20",
+    author: "Samsung",
+    price: 269.55,
+    category: "Phones",
+    qty: 0,
+  },
+
+  {
+    id: 16,
+    cover: IPhone,
+    title: "Galaxy S20",
+    author: "by Blueskytechco in Mockups",
+    price: 30.00,
+    category: "Phones",
+    qty: 0,
+  },
+
+  {
+    id: 17,
+    cover: Galaxi,
+    title: "Galaxy S20+",
+    author: "Samsung",
+    price: 310.00,
+    category: "Phones",
+    qty: 0,
+  }
 ]

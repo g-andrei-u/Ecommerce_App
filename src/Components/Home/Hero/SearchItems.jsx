@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import '../../../Style/ProductItem.css';
 import { FiSearch, FiShoppingBag } from 'react-icons/fi';
-import { AiOutlineClose, AiOutlineHeart } from 'react-icons/ai';
+import { AiOutlineHeart } from 'react-icons/ai';
 
 
 
