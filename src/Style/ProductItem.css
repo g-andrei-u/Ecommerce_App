@@ -76,6 +76,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .close {
@@ -108,4 +109,28 @@
 
 .open button:hover {
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .product-box {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        margin: 10px 0;
+    }
+
+    .open img {
+        width: 400px;
+        height: 400px;
+        box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.7);
+    }
+
+    .open button {
+        bottom: 200px;
+    }
 }

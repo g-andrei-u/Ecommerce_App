@@ -54,3 +54,11 @@
 .search-bar button:hover {
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 640px) {
+
+    .inner-hero {
+        width: 95%;
+    }
+}

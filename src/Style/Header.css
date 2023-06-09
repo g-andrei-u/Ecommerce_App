@@ -4,7 +4,7 @@ h1 {
 
 header {
     position: fixed;
-    z-index: 10;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,6 +12,7 @@ header {
     width: 100%;
     padding: 8px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    height: 50px;
 }
 
 nav {
@@ -20,15 +21,7 @@ nav {
     align-items: center;
 }
 
-.close {
-    display: none;
-}
-
-.open {
-    display: block;
-}
-
-ul {
+.list ul {
     list-style-type: none;
     display: flex;
     margin-left: 10px;
@@ -67,7 +60,12 @@ li a:hover {
     margin-right: 25px;
 }
 
-input {
+.search-header-bar {
+    display: flex; 
+    align-items: center
+}
+
+ input {
     border: 1px solid rgba(200, 200, 200, 0.4);
     border-radius: 25px;
     width: 180px;
@@ -76,7 +74,7 @@ input {
     margin: 0 20px;
 }
 
-.search-icon {
+ .search-icon {
     font-size: 20px;
     margin-left: -50px;
 }
@@ -202,4 +200,69 @@ button:active {
 
 .empty img {
     width: 20%;
+}
+
+.hamburgher {
+    display: none;
+}
+
+
+@media screen and (max-width: 640px) {  
+
+    header {
+        position: fixed;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(248, 248, 248, 0.9);
+        width: 100%;
+        padding: 8px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    }
+
+    .list ul {
+        display: none;
+    }
+
+    .hamburgher {
+        display: block;
+    }
+
+    .hamburgher button {
+        display: flex;
+        width: 40px;
+        font-size: 30px;
+    }
+
+    .open-nav {
+        background-color: rgba(248, 248, 248, 0.95);
+        position: fixed;
+        top: 57px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 20vh;
+    }
+
+    .open-nav li {
+        list-style-type: none;
+        text-decoration: none;
+        margin: 1px 0 1px 5px;
+        font-size: 18px;
+    }
+    
+    .open-nav li a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .close-nav {
+        display: none;
+    }
+
+    .search-header-bar {
+        display: none;
+        align-items: 'center'
+    }
 }

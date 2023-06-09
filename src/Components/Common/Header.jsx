@@ -13,6 +13,7 @@ import { DELETE } from '../../Controller/reducer';
 export default function Header() {
 
     const [cartList, setCartList] = useState(false);
+    const [menu, setMenu] = useState(false);
     const [price, setPrice] = useState(0);
     const dispatch = useDispatch();
 
@@ -42,17 +43,26 @@ export default function Header() {
     <>
         <header className='header'>
             <nav>
-                <div style={{display: 'none'}}>
-                    <button >
-                        <AiOutlineMenu className='close' />
+                <div className='hamburgher'>
+                    <button onClick={() => menu ? setMenu(false) : setMenu(true)} >
+                        <AiOutlineMenu />
                     </button>
+                    <div className={menu ? 'open-nav': 'close-nav'}>
+                        <ul>{navlist.map(nav => 
+                            <li key={nav.id}>
+                                <Link to={nav.path}>{nav.text.toUpperCase()}</Link>
+                            </li>
+                        )}</ul>
+                    </div>
                 </div>
+
                 <div className='logo'>
                     <Link to={'/'}>
                         <h1 style={{ color: 'rgba(179, 0, 0, 1)'}}>VALUE.</h1><h1>ON</h1><h1 style={{ color: 'rgb(255, 157, 0)'}}>DEMAND</h1>
                     </Link>
                 </div>
-                <div>
+
+                <div className='list'>
                     <ul>{navlist.map(nav => 
                         <li key={nav.id}>
                             <Link to={nav.path}>{nav.text.toUpperCase()}</Link>
@@ -60,8 +70,9 @@ export default function Header() {
                     )}</ul>
                 </div>
             </nav>
+
             <div className='search-header' >
-                <div style={{display: 'flex', alignItems: 'center'}}>
+                <div className='search-header-bar'>
                     <input type='text' placeholder='Search Produts...' />
                     <BiSearch className='search-icon' />
                 </div>
