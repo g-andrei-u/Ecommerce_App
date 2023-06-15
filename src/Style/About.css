@@ -27,3 +27,31 @@
 .about-description h4 {
     margin: 5px 0;
 }
+
+@media screen and (max-width: 640px) {
+
+    .about {
+        padding-top: 150px;
+    }
+
+    .about-description {
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .about {
+        padding-top: 120px;
+    }
+
+    .about h1 {
+        font-size: 30px;
+    }
+
+    .about-description {
+        width: 85%;
+        margin: 0 8%;
+    }
+}

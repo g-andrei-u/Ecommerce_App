@@ -52,7 +52,7 @@ export default function ProductItem({ data }) {
                             </button>
                         </div>
                     </div>
-                    <div>
+                    <div className="product-desc">
                         <h3>{items.title}</h3>
                         <p>{items.author}</p>
                         <h4>Price: €{items.price}</h4>

@@ -62,3 +62,31 @@
         width: 95%;
     }
 }
+
+@media screen and (max-width: 460px) {
+
+    .hero {
+        padding-top: 140px;
+    }
+
+    .inner-hero {
+        width: 98%;
+    }
+
+    .inner-hero h1 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .search-bar input {
+        margin: 0;
+    }
+
+    .search-bar span {
+        position: relative;
+        left: 70px;
+        display: inline;
+        font-size: 10px;
+    }
+    
+}

@@ -3,6 +3,7 @@ h1 {
 }
 
 header {
+    box-sizing: border-box;
     position: fixed;
     z-index: 1;
     display: flex;
@@ -65,7 +66,7 @@ li a:hover {
     align-items: center
 }
 
- input {
+input {
     border: 1px solid rgba(200, 200, 200, 0.4);
     border-radius: 25px;
     width: 180px;
@@ -74,7 +75,7 @@ li a:hover {
     margin: 0 20px;
 }
 
- .search-icon {
+.search-icon {
     font-size: 20px;
     margin-left: -50px;
 }
@@ -207,18 +208,14 @@ button:active {
 }
 
 
-@media screen and (max-width: 640px) {  
+@media screen and (max-width: 640px) { 
+    
+    h1 {
+        font-size: 22px;
+    }
 
     header {
-        position: fixed;
-        z-index: 1;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: rgba(248, 248, 248, 0.9);
-        width: 100%;
-        padding: 8px 0;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+        padding: 5px 0;
     }
 
     .list ul {
@@ -238,7 +235,7 @@ button:active {
     .open-nav {
         background-color: rgba(248, 248, 248, 0.95);
         position: fixed;
-        top: 57px;
+        top: 50px;
         display: flex;
         align-items: center;
         width: 100%;
@@ -265,4 +262,32 @@ button:active {
         display: none;
         align-items: 'center'
     }
+}
+
+@media screen and (max-width: 460px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    button {
+        width: 110px;
+        margin-right: 0;
+        font-size: 12px;
+    }
+
+    .profile-icon {
+        display: none;
+    }
+
+    .heart-icon {
+        display: none;
+    }
+
+    .hamburgher button {
+        width: 35px;
+        height: 35px;
+        margin-left: 10px;
+    }
+    
 }

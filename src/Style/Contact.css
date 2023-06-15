@@ -1,32 +1,32 @@
 .container {
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 30px;
-    padding-left: 20px;
 }
 
 .container form {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    align-items: center;
 }
 
 .container label {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 5px;
 }
 
 select, textarea {
-    width: 50%; 
-    padding: 12px;
+    width: 35%; 
+    padding: 12px 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-sizing: border-box;
-    margin-top: 6px;
+    margin-top: 5px;
     margin-bottom: 16px;
     resize: vertical
 }
   
 .input {
-    width: 50%; 
+    width: 35%; 
     padding: 10px 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -45,4 +45,31 @@ select, textarea {
   
 .button:hover {
     background-color: rgba(179, 0, 0, 1);
+}
+
+@media screen and (max-width: 640px) {
+
+    select, textarea {
+        width: 75%; 
+    }
+
+    .input {
+        width: 70%; 
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .container {
+        padding-top: 65px;
+        padding-bottom: 30px;
+    }
+
+    select, textarea {
+        width: 85%; 
+    }
+
+    .input {
+        width: 80%; 
+    }
 }
