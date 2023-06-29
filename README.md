@@ -1,3 +1,4 @@
 # Ecommerce App
 
-Deployed app on Netlify:https://valueondemand.netlify.app/
+This application allows for a true online shopping experience.
+Deployed app on Netlify: https://valueondemand.netlify.app/
